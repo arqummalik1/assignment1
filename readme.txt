@@ -8,7 +8,8 @@ Navigation: The app utilizes React Navigation to implement a structured navigati
 Tab Navigation: The Property Details screen utilizes a Material Top Tab Navigator to organize property-related information into distinct tabs, enhancing usability and organization.
 Dynamic Icons: Each tab in the Property Details screen is associated with a dynamic icon, providing visual cues to users and improving navigation intuitiveness.
 Custom Styling: The app incorporates custom styling for headers, tabs, and icons, creating a visually appealing and cohesive user interface.
-
+Offline Data Storage: Property data is stored locally using AsyncStorage, allowing users to save data even when offline.
+Data Synchronization: When the device is connected to the internet, the saved data is synchronized with a remote server, 
 
 
 
@@ -21,8 +22,7 @@ Features
 Card-based Layout: The Home Screen utilizes a card-based layout to display different categories or sections of the application.
 Dynamic Content: The content of each card is dynamically generated based on predefined data, providing flexibility and ease of maintenance.
 Navigation: Users can navigate to specific screens by tapping on the respective cards, allowing for intuitive and efficient navigation within the application.
-Offline Data Storage: Property data is stored locally using AsyncStorage, allowing users to save data even when offline.
-Data Synchronization: When the device is connected to the internet, the saved data is synchronized with a remote server, 
+
 
 
 
