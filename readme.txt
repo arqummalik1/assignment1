@@ -21,6 +21,8 @@ Features
 Card-based Layout: The Home Screen utilizes a card-based layout to display different categories or sections of the application.
 Dynamic Content: The content of each card is dynamically generated based on predefined data, providing flexibility and ease of maintenance.
 Navigation: Users can navigate to specific screens by tapping on the respective cards, allowing for intuitive and efficient navigation within the application.
+Offline Data Storage: Property data is stored locally using AsyncStorage, allowing users to save data even when offline.
+Data Synchronization: When the device is connected to the internet, the saved data is synchronized with a remote server, 
 
 
 
